@@ -36,3 +36,15 @@ table,th,td{
     border: 1px solid #ddd;
     border-collapse: collapse;
 }
+
+.btns{
+    display: flex;
+}
+
+.btns button{
+    flex: 1;
+    margin: 5px;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 15px;
+}
